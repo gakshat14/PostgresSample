@@ -8,6 +8,7 @@ dotenv.load();
 //Postgres endpoint
 const postgresAddress = 'postgres://'+process.env.POSTGRES_USERNAME+':'+process.env.POSTGRES_PASSWORD+'@localhost:5432/'+process.env.POSTGRES_DATABASE_NAME;
 
+//creating pg client
 const client = new pg.Client(postgresAddress);
 client.connect();
 
