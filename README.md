@@ -10,4 +10,3 @@
 	"name":"Sales port",
 	"type" : "heat map"
 }
-```

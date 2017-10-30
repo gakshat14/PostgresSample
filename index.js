@@ -41,4 +41,4 @@ app.use('/save', (req, res) => {
 
 });
 
-server.listen(3000, err => console.log(err || "Server started successfully"));
+server.listen(3000, err => console.log(err || "Server started successfully on port 3000"));
